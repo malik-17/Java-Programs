@@ -18,5 +18,6 @@ public class Arithematic {
         System.out.println("Multiplication is : "+mul);
         System.out.println("Division is : "+div);
         System.out.println("Mod is : "+mod);
+        input.close();
     }
 }
