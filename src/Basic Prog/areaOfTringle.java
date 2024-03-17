@@ -1,13 +1,15 @@
 import java.util.Scanner;
-public class areaOftringle{
+public class areaOfringle{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Base : ");
-        int B = input.nextDouble();
+        double B = input.nextDouble();
         System.out.println("Enter the height : ");
-        int H = input.nextDouble();
+        double H = input.nextDouble();
 
-        double Area = 0.5*B*H;
+        //double Area = 0.5*B*H;
+        double Area = (H * B)/2;
+
         System.out.println("Area of Trinle : " +Area);
     }
 }
