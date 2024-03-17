@@ -11,5 +11,6 @@ public class areaOfTringle{
         double Area = (H * B)/2;
 
         System.out.println("Area of Trinle : " +Area);
+        input.close();
     }
 }
